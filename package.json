@@ -1,0 +1,49 @@
+{
+  "name": "mosaic-101",
+  "version": "0.1.0",
+  "private": true,
+  "mosaic": {
+    "extensions": {
+      "sample-extension": true
+    }
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@tilework/mosaic": "^1.0.1",
+    "@tilework/mosaic-cra-scripts": "^1.0.3",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.5",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "sample-extension": "file:./packages/sample-extension",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "cra-scripts start",
+    "build": "cra-scripts build",
+    "link": "cra-scripts link",
+    "test": "cra-scripts test",
+    "postinstall": "cra-scripts link",
+    "postupdate": "cra-scripts link"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

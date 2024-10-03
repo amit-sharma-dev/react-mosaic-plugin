@@ -1,0 +1,7 @@
+{
+    "include": [
+        "src/**/*",
+        "packages/sample-extension/src/**/*"
+    ],
+    "extends": "./mosaic.jsconfig.json"
+}
